@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Ansible secrets and vault files (customize as needed)
+*.vault
+*.key
+secrets.yml
+*.retry
+
+# Local inventory files (optional - if dynamic inventories are used)
+inventory/*
+!inventory/sample_inventory.yml  # Keep a sample file
+
+# Ansible temporary and backup files
+*.retry
+*.orig
+*.bak
+*.swp
+*.tmp
+
+# SSH related
+*.pem
+*.pub
+.ssh/
+
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test output
+*.coverage
+htmlcov/
+
+# Roles downloaded via ansible-galaxy (optional)
+roles/
+!roles/README.md  # Keep documentation
+
+# Molecule testing directories (if used)
+.molecule/
+
+
+# Others
+.jmx-exporter/
