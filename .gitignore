@@ -53,4 +53,5 @@ roles/
 
 
 # Others
-.jmx-exporter/
+*jmx-exporter/
+*.zip
